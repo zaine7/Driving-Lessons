@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book a Lesson | Result Driving School</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">Result Driving School</div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="testimonials.html">Testimonials</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="booking.html" class="cta-btn active">Book Now</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Book Your Lesson</h1>
+            <p>Start your driving journey today</p>
+        </div>
+    </section>
+
+    <section class="booking-section">
+        <div class="container">
+            <div class="booking-intro">
+                <h2>Ready to Get Started?</h2>
+                <p>Fill out the form below to book your driving lesson. We'll get back to you within 24 hours to confirm your booking.</p>
+            </div>
+
+            <div class="booking-form-container">
+                <form class="booking-form" id="bookingForm">
+                    <h3>Booking Details</h3>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="firstName">First Name *</label>
+                            <input type="text" id="firstName" name="firstName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="lastName">Last Name *</label>
+                            <input type="text" id="lastName" name="lastName" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number *</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="lessonType">Lesson Type *</label>
+                        <select id="lessonType" name="lessonType" required>
+                            <option value="">Select Lesson Type</option>
+                            <option value="learner">Learner Driver Lessons</option>
+                            <option value="intensive">Intensive Driving Course</option>
+                            <option value="test-prep">Test Preparation</option>
+                            <option value="pass-plus">Pass Plus</option>
+                            <option value="refresher">Refresher Lessons</option>
+                            <option value="adi-training">ADI Instructor Training</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="transmission">Transmission Preference *</label>
+                        <select id="transmission" name="transmission" required>
+                            <option value="">Select Transmission</option>
+                            <option value="manual">Manual</option>
+                            <option value="automatic">Automatic</option>
+                        </select>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="preferredDate">Preferred Date *</label>
+                            <input type="date" id="preferredDate" name="preferredDate" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="preferredTime">Preferred Time *</label>
+                            <select id="preferredTime" name="preferredTime" required>
+                                <option value="">Select Time</option>
+                                <option value="morning">Morning (8am - 12pm)</option>
+                                <option value="afternoon">Afternoon (12pm - 5pm)</option>
+                                <option value="evening">Evening (5pm - 8pm)</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="experience">Driving Experience *</label>
+                        <select id="experience" name="experience" required>
+                            <option value="">Select Experience Level</option>
+                            <option value="none">Complete Beginner</option>
+                            <option value="some">Some Experience</option>
+                            <option value="test-ready">Test Ready</option>
+                            <option value="passed">Passed (Refresher)</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Additional Information</label>
+                        <textarea id="message" name="message" rows="4" placeholder="Any special requirements or questions?"></textarea>
+                    </div>
+
+                    <button type="submit" class="cta-btn large">Submit Booking Request</button>
+                    <p class="form-note">* Required fields. We'll contact you within 24 hours to confirm your booking.</p>
+                </form>
+            </div>
+
+            <div class="booking-info">
+                <h3>What Happens Next?</h3>
+                <div class="steps">
+                    <div class="step">
+                        <span class="step-number">1</span>
+                        <div class="step-content">
+                            <h4>Submit Your Request</h4>
+                            <p>Fill out the booking form with your details and preferences</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <span class="step-number">2</span>
+                        <div class="step-content">
+                            <h4>We'll Contact You</h4>
+                            <p>Our team will reach out within 24 hours to confirm availability</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <span class="step-number">3</span>
+                        <div class="step-content">
+                            <h4>Start Learning</h4>
+                            <p>Meet your instructor and begin your driving journey</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h4>Result Driving School</h4>
+                    <p>Your trusted partner in learning to drive</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="testimonials.html">Testimonials</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <p>Phone: <phone number></p>
+                    <p>Email: <email></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Result Driving School. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
